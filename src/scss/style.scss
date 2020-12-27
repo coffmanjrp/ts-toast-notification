@@ -1,0 +1,26 @@
+@import 'config';
+
+.toasts {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  &.info {
+    color: rebeccapurple;
+  }
+  &.success {
+    color: green;
+  }
+  &.error {
+    color: red;
+  }
+}
