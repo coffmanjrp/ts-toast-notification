@@ -13,7 +13,7 @@ function getRandomMessage() {
     return messages[Math.floor(Math.random() * messages.length)];
 }
 function getRandomType() {
-    return types[Math.floor(Math.random() * messages.length)];
+    return types[Math.floor(Math.random() * types.length)];
 }
 function createNotification(message, type) {
     if (message === void 0) { message = null; }
