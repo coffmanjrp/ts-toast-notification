@@ -9,7 +9,7 @@
 
 body {
   height: 100vh;
-  background-color: rebeccapurple;
+  background-color: teal;
   font-family: 'Poppins', sans-serif;
   overflow: hidden;
 }
@@ -28,7 +28,7 @@ body {
   border-radius: 5px;
   font-family: inherit;
   font-weight: bold;
-  color: rebeccapurple;
+  color: teal;
   cursor: pointer;
   &:focus {
     outline: none;
